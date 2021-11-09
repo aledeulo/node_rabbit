@@ -1,0 +1,8 @@
+#!/bin/bash
+
+export AMQP_URL=amqp://guest:guest@localhost:5673
+export EXCHANGE=test.exchange
+export QUEUE=test.queue
+export ROUTING_KEY=test.rkey
+export SERVER_PORT=3000
+node request_handler.js
