@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export AMQP_URL=amqp://guest:guest@localhost:5673
+export EXCHANGE=test.exchange
+export QUEUE=test.queue
+node consumer.js
